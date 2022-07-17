@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Weather-Details</title>
+</head>
+<body>
+    <div class="weather-card">
+        <header class="weather-header"><a style="text-decoration: none;color:#3f9de1" href="/" class="fa-solid fa-arrow-left"></a> Weather App</header>
+        <section class="weather-part">
+           
+            <img  style="height:35%;width:25%;margin:2% 35% 3%" src= "https://openweathermap.org/img/wn/<%=icon%>@2x.png" alt="current Weather Image">
+            
+            <div class="description">
+                <div class="description-contents">
+                  <h1><%=temperature%>°C</h1>
+                  <p><%=descriptn%></p>
+                  <img style="height:25px" src="images/location.png" alt="">
+                  <span><%=city%></span>
+                </div>
+            </div>
+        </section>
+        <section class="bottom">
+            <div class="bottom-left">
+                <span >Feels Like</span>
+                <img style="height:25px" src="images/temperature.png" alt="feelsLike">
+                <span ><%=feels%>°C</span>
+            </div>
+            <div class="bottom-right">
+                <span class="bottom-text">Humidity</span>
+                <img style="height:25px" src="images/humidity.png" alt="Humidity%">
+                <span ><%=humid%>%</span>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "weatherproject",
+  "version": "1.0.0",
+  "description": "weather project\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[_\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D",
+  "main": "\u001b[A\u001b[D\u001b[r\u001b[B\u001b[C",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shashank bhardwaj",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "ejs": "^3.1.8",
+    "express": "^4.17.3",
+    "lodash": "^4.17.21"
+  }
+}
